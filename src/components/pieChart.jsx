@@ -1,24 +1,7 @@
-
 import { Pie, PieChart, Tooltip } from 'recharts';
+import pieDados from '../mock/pieDados.json'
 
 export const GPie = () => {
-
-   const dados = {
-    data01: [
-        { name: "Desenvolvimento", value: 400 },
-        { name: "Design", value: 300 },
-        { name: "Marketing", value: 200 },
-        { name: "Infraestrutura", value: 100 }
-    ],
-
-    data02: [
-        { name: "Janeiro", value: 120 },
-        { name: "Fevereiro", value: 180 },
-        { name: "Março", value: 150 },
-        { name: "Abril", value: 220 },
-        { name: "Maio", value: 190 }
-    ]
-};
 
     return (
         <PieChart
@@ -32,7 +15,7 @@ export const GPie = () => {
             responsive
         >
             <Pie
-                data={dados.data01}
+                data={pieDados.data01}
                 dataKey="value"
                 nameKey="name"
                 cx="50%"
@@ -44,7 +27,7 @@ export const GPie = () => {
             />
 
             <Pie
-                data={dados.data02}
+                data={pieDados.data02}
                 dataKey="value"
                 nameKey="name"
                 cx="50%"

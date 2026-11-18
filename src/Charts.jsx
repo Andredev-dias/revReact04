@@ -5,6 +5,8 @@ import { GBarra } from './components/barChart'
 import { GLinha } from './components/lineChart'
 import { GPie } from './components/pieChart'
 
+
+
 function Charts() {
     const [show, setShow] = useState("")
 
