@@ -8,8 +8,8 @@ export const GPie = () => {
             style={{
                 width: '100%',
                 height: '100%',
-                maxWidth: '500px',
-                maxHeight: '80vh',
+                maxWidth: '1200px',
+                maxHeight: '70vh',
                 aspectRatio: 1
             }}
             responsive
