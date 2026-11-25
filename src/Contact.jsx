@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import s from './Contact.module.css'
+import { Menu } from './components/menu'
 
 function Contact(){
 
@@ -13,20 +14,21 @@ function Contact(){
     }
    
     return(
+        <div className={s.wrapContact}>
+        <Menu/>
+
         <div className={s.formulario}>
-            
             <div className={s.wrapInputs}>
                 <label htmlFor="nome">Nome</label>
-                <input type="text" placeholder='Insira seu nome' value={nome} onChange={(e) => setNome(e.target.value)}/>
+                <input className={s.inputData} type="text" placeholder='Insira seu nome' value={nome} onChange={(e) => setNome(e.target.value)}/>
             </div>
 
              <div className={s.wrapInputs}>
                 <label htmlFor="assunto">Assunto</label>
-                <textarea placeholder='Insira o assunto' value={assunto} onChange={(e) => setAssunto(e.target.value)}/>
+                <textarea className={s.textAreaData} placeholder='Insira o assunto' value={assunto} onChange={(e) => setAssunto(e.target.value)}/>
             </div>
-
             <button className={s.btn} onClick={enviar}>ENVIAR</button>
-
+        </div>
         </div>
     )
 }
