@@ -4,6 +4,7 @@ import { RouterProvider } from "react-router/dom";
 import './index.css'
 import App from './App.jsx'
 import Charts from './Charts.jsx';
+import Contact from './Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/charts",
     element:<Charts/>,
+  },
+    {
+    path: "/contact",
+    element:<Contact/>,
   },
 ]);
 
