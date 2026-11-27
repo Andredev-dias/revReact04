@@ -1,0 +1,32 @@
+[
+    {
+        "id":"01",
+        "imagem": "/bannerImg.webp",
+        "titulo": "Título 01",
+        "texto": "Texto para card 01"
+    },
+    {
+        "id":"02",
+        "imagem": "/bannerImg.webp",
+        "titulo": "Título 02",
+        "texto": "Texto para card 02"
+    },
+    {
+        "id":"03",
+        "imagem": "/bannerImg.webp",
+        "titulo": "Título 03",
+        "texto": "Texto para card 03"
+    },
+    {
+        "id":"04",
+        "imagem": "/bannerImg.webp",
+        "titulo": "Título 04",
+        "texto": "Texto para card 04"
+    },
+    {
+        "id":"05",
+        "imagem": "/bannerImg.webp",
+        "titulo": "Título 05",
+        "texto": "Texto para card 05"
+    }
+]
